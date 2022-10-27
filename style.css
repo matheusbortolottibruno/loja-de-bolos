@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-inteiro {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.cabecalho{
+
+    text-align: center;
+    background-image: url('imagens/fundo-baner.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.titulo{
+    font-family: 'cookie';
+    font-size: 60px;
+    line-height: 35px; 
+    color: darkslategray;
+    font-weight: normal;
+    text-shadow: 3px 3px rgb(240, 235, 235);
+}
+.titulo-pequeno{
+    font-size: 30px;
+
+}
+.menu-principal{
+    background-color:#6B705B;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'roboto';
+    color: #FFE8D6;
+}
+.item-menu{
+    color: #FFE8D6;
+}
